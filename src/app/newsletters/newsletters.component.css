@@ -1,0 +1,74 @@
+/* NewsletterComponent's private CSS styles */
+.newsletter li {
+  position: relative;
+  cursor: pointer;
+}
+
+.newsletter li:hover {
+  left: .1em;
+}
+
+.newsletter a {
+  display:inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0.8em 0.7em;
+  background-color:#ce5050;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height:fit-content;
+  min-width: 22px;
+  text-align: center;
+  margin-right: .8em;
+  border-radius: 4em 4em 4em 4em;
+}
+
+.newsletter a:hover {
+  color: #2c3a41;
+  background-color: #ce50508a;
+}
+
+.titlecase {
+  text-transform: titlecase;
+}
+
+.newsletter a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.newsletter .badge {
+  display:inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0.8em 0.7em;
+  background-color:#405061;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height:fit-content;
+  min-width: 22px;
+  text-align: center;
+  margin-right: .8em;
+  border-radius: 4em 4em 4em 4em;
+}
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse:separate;
+  width:100%;
+}
+
+.td, .th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.tr:nth-child(even) {
+  background-color: #dddddd;
+}
+

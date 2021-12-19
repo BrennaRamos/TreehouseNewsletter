@@ -1,0 +1,15 @@
+
+
+<div class="centered">                       <!-- Global to any other part of the site that does not have personalized CSS styling-->
+  <h1 >{{title}}</h1>
+
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+  <br>
+  <nav>
+    <p class="badge" routerLink="/dashboard">View Subscriber Dashboard</p>
+    <p class="badge" routerLink = "/newsletters">Add New Subscribers</p>
+  </nav>
+  <footer>Contractor Nation, 2021</footer>
+</div>
+

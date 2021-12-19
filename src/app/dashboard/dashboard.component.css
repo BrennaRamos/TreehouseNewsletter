@@ -1,0 +1,79 @@
+/* DashboardComponent's private CSS styles */
+.dashboard {
+  margin: 0 2em 2em 0;
+  list-style-type:none;
+  padding: 0;
+  text-align: center;
+  width:100%;
+}
+.dashboard li {
+  position: relative;
+  cursor: pointer;
+}
+
+.dashboard li:hover {
+  left: .1em;
+}
+
+.dashboard a {
+  display:flex;
+  color: #333;
+  text-decoration: none;
+  background-color: #EEE;
+  margin: .5em;
+  text-align: center;
+  padding: 1em 0;
+  border-radius: 40px;
+  display: block;
+  width: 100%;
+}
+
+.dashboard a:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+}
+
+.titlecase {
+  text-transform: titlecase;
+}
+
+.dashboard a:active {
+  background-color: #525252;
+  color: #fafafa;
+}
+
+.dashboard .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:#5a4061;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse:separate;
+  width:100%;
+}
+
+.td, .th {
+  border: 1px solid #57200a;
+  text-align: center;
+  padding: 8px;
+
+}
+
+.tr:nth-child(even) {
+  background-color: #57200a2d;
+}
+

@@ -1,0 +1,38 @@
+/* Application-wide Styles */
+h1 {
+  color: #0c3f14ce;
+  font-family: Consolas, monospace;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #0c3f14b4;
+  font-family: Consolas, monospace;
+  font-weight: lighter;
+}
+h4, h5 {
+  color: #0c3f14ab;
+  font-family: Consolas, monospace;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #011a09da;
+  font-family: Consolas, monospace;
+}
+/* everywhere else */
+* {
+  font-family: Consolas, monospace;
+}
+
+.bgSub {
+  /* The image used */
+  background-image:url(./assets/background.png);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position:center;
+  background-repeat: no-repeat;
+
+}

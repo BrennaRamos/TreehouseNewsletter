@@ -1,0 +1,28 @@
+<h2>Current Newsletter Subscribers</h2>
+
+<ul >
+<html>
+
+<body >
+
+  <table class="table">
+
+      <tr>
+        <th class="th">Subscriber Name</th>
+        <th class="th">Email</th>
+        <th class="th">Take Action</th>
+      </tr>
+
+      <tr class="tr" *ngFor="let newsletter of sortNewsletters">
+
+          <td class="td">{{newsletter.name}}</td>
+          <td class="td">{{newsletter.email}}</td>
+          <td class="td"><a routerLink="/detail/{{newsletter.id}}"> Delete Subscriber </a></td>
+  </tr>
+  </table>
+
+
+
+</body>
+</html>
+</ul>

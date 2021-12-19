@@ -1,0 +1,21 @@
+
+
+<h2>Create a New Subscriber</h2>
+<h5>Remember: Name and email fields cannot be empty!</h5>
+
+<div>
+  <label for="new-newsletter">Subscriber name: </label>
+  <input id="new-newsletter" #newsletterName />
+  <br> <br>
+  <label for="new-newsletter">Subscriber email: </label>
+  <input id="new-newsletter" #newsletterEmail />
+
+  <br> <br>
+
+  <!-- (click) passes input value to add() and then clears the input -->
+  <nav>
+  <button class="add-button" (click)="add(newsletterName.value, newsletterEmail.value); newsletterName.value='';newsletterEmail.value=''; " >
+    Submit
+  </button>
+  </nav>
+</div>
