@@ -28,7 +28,7 @@ body, input[type="text"], button {
 
 .bgSub {
   /* The image used */
-  background-image:url(https://raw.githubusercontent.com/BrennaRamos/TreehouseNewsletter/master/src/assets/background.png?token=ANDSMKYSWOBK2OBYHS5DYWTBX7BKS);
+  background-image:url(./assets/background.png);
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
